@@ -1545,7 +1545,6 @@ GameObject:
   - component: {fileID: 407130767}
   - component: {fileID: 407130773}
   - component: {fileID: 407130772}
-  - component: {fileID: 407130771}
   - component: {fileID: 407130768}
   - component: {fileID: 407130770}
   - component: {fileID: 407130769}
@@ -1618,14 +1617,17 @@ GameObject:
   - component: {fileID: 407130827}
   - component: {fileID: 407130840}
   - component: {fileID: 407130839}
-  - component: {fileID: 407130842}
-  - component: {fileID: 407130841}
-  - component: {fileID: 407130844}
-  - component: {fileID: 407130843}
-  - component: {fileID: 407130846}
-  - component: {fileID: 407130845}
   - component: {fileID: 407130847}
   - component: {fileID: 407130848}
+  - component: {fileID: 407130771}
+  - component: {fileID: 407130842}
+  - component: {fileID: 407130841}
+  - component: {fileID: 407130843}
+  - component: {fileID: 407130844}
+  - component: {fileID: 407130846}
+  - component: {fileID: 407130845}
+  - component: {fileID: 407130850}
+  - component: {fileID: 407130849}
   m_Layer: 0
   m_Name: Tutorial and First Room
   m_TagString: Untagged
@@ -1646,11 +1648,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -48.98059, y: 673.3864}
+  scrollPos: {x: -517.38727, y: 747.39294}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 0
   blockViewHeight: 400
-  zoom: 0.27999997
+  zoom: 0.25
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1658,9 +1660,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 407130768}
+  - {fileID: 407130763}
   selectedCommands:
-  - {fileID: 407130847}
+  - {fileID: 407130849}
   variables:
   - {fileID: 407130379}
   - {fileID: 407130378}
@@ -1727,7 +1729,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 60.136364
     y: 24.863636
-    width: 135.7143
+    width: 146
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1901,7 +1903,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 73
     y: 147
-    width: 132.14287
+    width: 142
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2237,7 +2239,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 523
     y: 144
-    width: 142.85715
+    width: 154
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3575,7 +3577,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 960.52826
     y: 138.67303
-    width: 132.14287
+    width: 142
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5973,9 +5975,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1782.9066
-    y: -408.17337
-    width: 132.14287
+    x: 1787.2546
+    y: -462.52133
+    width: 142
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6920,8 +6922,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1989.1715
-    y: -518.60736
+    x: 2043.5194
+    y: -581.65063
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -8844,8 +8846,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1988.7772
-    y: -416.78906
+    x: 2049.6472
+    y: -464.61526
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -8878,9 +8880,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1991.4629
-    y: -324.24765
-    width: 128.57144
+    x: 2047.985
+    y: -352.50858
+    width: 138
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9670,8 +9672,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1807.959
-    y: -247.90536
+    x: 1803.1759
+    y: -240.63264
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -9910,9 +9912,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1991.1183
-    y: -245.01599
-    width: 121.42858
+    x: 2044.6754
+    y: -243.55351
+    width: 130
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10311,7 +10313,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 1800.4604
-    y: -53.632545
+    y: -51.458633
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -10374,9 +10376,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1933.2493
-    y: -120.84567
-    width: 150
+    x: 2039.772
+    y: -123.019585
+    width: 162
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11140,8 +11142,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1936.5278
-    y: 5.3838387
+    x: 2045.2241
+    y: 18.427317
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -11443,9 +11445,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1527.8662
-    y: 333.8348
-    width: 135.7143
+    x: 1519.8662
+    y: 409.8348
+    width: 146
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11773,9 +11775,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1761.3215
-    y: 232.2678
-    width: 157.14287
+    x: 1764.8867
+    y: 295.57214
+    width: 170
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11899,9 +11901,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1745.15
-    y: 475.0529
-    width: 167.85715
+    x: 1768.7153
+    y: 563.05286
+    width: 182
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12122,8 +12124,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 2043.4806
-    y: 126.29723
+    x: 2052.1763
+    y: 209.77554
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -12142,9 +12144,12 @@ MonoBehaviour:
   - {fileID: 407130772}
   - {fileID: 407130840}
   - {fileID: 407130839}
-  - {fileID: 407130771}
-  - {fileID: 407130842}
-  - {fileID: 407130841}
+  - {fileID: 407130843}
+  - {fileID: 407130844}
+  - {fileID: 407130846}
+  - {fileID: 407130845}
+  - {fileID: 407130850}
+  - {fileID: 407130849}
 --- !u!114 &407130764
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -12265,8 +12270,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 2048.7878
-    y: 346.79843
+    x: 2049.4832
+    y: 388.7114
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -12343,6 +12348,9 @@ MonoBehaviour:
   - {fileID: 407130830}
   - {fileID: 407130848}
   - {fileID: 407130847}
+  - {fileID: 407130771}
+  - {fileID: 407130842}
+  - {fileID: 407130841}
   - {fileID: 407130829}
   - {fileID: 407130828}
   - {fileID: 407130827}
@@ -12411,10 +12419,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 398
-  indentLevel: 2
-  storyText: "\rNow proceed to ram yourself furiously. Fast forward so you, you have
-    little time to decide what to do."
+  itemId: 486
+  indentLevel: 1
+  storyText: "\rThe minotaur gets up and prepares to attack, without time to think
+    you cast your spell to the minotaur."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -14178,7 +14186,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &407130839
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 407130349}
@@ -14205,7 +14213,7 @@ MonoBehaviour:
     colorVal: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &407130840
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 407130349}
@@ -14232,105 +14240,7 @@ MonoBehaviour:
     stringVal: 
 --- !u!114 &407130841
 MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 407130349}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 479
-  indentLevel: 2
-  text: Turn left
-  description: 
-  targetBlock: {fileID: 407130843}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
---- !u!114 &407130842
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 407130349}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 478
-  indentLevel: 2
-  text: Turn right
-  description: 
-  targetBlock: {fileID: 407130844}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
---- !u!114 &407130843
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 407130349}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 2237.7734
-    y: 174.85197
-    width: 120
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 481
-  blockName: Turn left
-  description: 
-  eventHandler: {fileID: 0}
-  commandList: []
---- !u!114 &407130844
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 407130349}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 2242.1208
-    y: 46.59114
-    width: 120
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 480
-  blockName: Turn right
-  description: 
-  eventHandler: {fileID: 0}
-  commandList:
-  - {fileID: 407130846}
-  - {fileID: 407130845}
---- !u!114 &407130845
-MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 407130349}
@@ -14339,9 +14249,119 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 483
-  indentLevel: 0
-  storyText: 
+  itemId: 488
+  indentLevel: 1
+  storyText: "\rNow it's the minotaur's turn, he roars and launches for you, he hits
+    a powerful blow with his claw crossing your body and ending your trip in the dungeon."
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &407130842
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 407130349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 487
+  indentLevel: 1
+  storyText: "\rThis manages to connect the beast, but unfortunately the desired effect
+    is not achieved, the minotaur barely flinches at your attack."
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &407130843
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 407130349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 489
+  indentLevel: 2
+  storyText: "\rThe impact shakes you, you take your swords and you throw yourself
+    again against the minotaur, but this time you throw one of the swords at the minotaur."
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &407130844
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 407130349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 490
+  indentLevel: 2
+  storyText: "\rYou slide to try to pass between the legs of the minotaur, but this
+    takes you from the neck to the ground, while the sword falls"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &407130845
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 407130349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 492
+  indentLevel: 2
+  storyText: "\rTake your hands to the neck trying to cover the wound while your other
+    sword falls, you take it in the air and with it you give the last blow to the
+    minotaur's forehead."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -14356,7 +14376,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &407130846
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 407130349}
@@ -14365,10 +14385,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 482
-  indentLevel: 0
-  storyText: You turn to the right to escape the bestial attack, managing to avoid
-    the onslaught, now you are in a better position to attack.
+  itemId: 491
+  indentLevel: 2
+  storyText: "\rThe minotaur turns to see the other sword fall, take advantage of
+    the distraction to nail your other sword in his throat, the beast rises after
+    receiving the attack."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -14383,7 +14404,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &407130847
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 407130349}
@@ -14394,7 +14415,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 484
   indentLevel: 1
-  storyText: 
+  storyText: "\rYou incorporate to face the minotaur, prepare one of your spells to
+    attack the minotaur."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -14409,7 +14431,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &407130848
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 407130349}
@@ -14428,6 +14450,59 @@ MonoBehaviour:
   integerData:
     integerRef: {fileID: 0}
     integerVal: 15
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+--- !u!114 &407130849
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 407130349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 494
+  indentLevel: 2
+  storyText: 
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &407130850
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 407130349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18c5e8d46183346b59f64b820e71f97f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 493
+  indentLevel: 1
+  compareOperator: 0
+  variable: {fileID: 407130364}
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
   floatData:
     floatRef: {fileID: 0}
     floatVal: 0
