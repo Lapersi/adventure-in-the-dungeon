@@ -8,10 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Main Menu.unity
     guid: e354f1bc619094541ba67be55915d93b
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Idioma.unity
     guid: 9ab9c0e624fb0684ab01dff5e10a15ec
-  - enabled: 1
+  - enabled: 0
     path: "Assets/Scenes/Dungeon Espa\xF1ol.unity"
     guid: 49149e7afd0fe5a468833258d5c8a2c1
   - enabled: 1

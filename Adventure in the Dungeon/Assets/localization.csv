@@ -137,8 +137,6 @@ SAY.Tutorial and First Room.286.,,"The minotaur continues his march against you,
 SAY.Tutorial and First Room.288.,,"Now that you have finished with the minotaur, you can continue advancing, after a few minutes of walking, an incriminated one appears before you, choose:","Ahora que has acabado con el minotauro puedes proceder con tu viaje, tras unos momentos caminando encuentras frente a ti una división, Elige: "
 SAY.Tutorial and First Room.291.,,"
 You cast your spells but your magic power is not enough to harm the beast, so without flinching it attacks you, ending your life.","Invocas tus hechizos para vencer a la bestia, pero tu poder mágico no es suficiente para vencerla. Sin vacilar el minotauro te ataca y acaba con tu vida. "
-MENU.Tutorial and First Room.294,,Left,Izquierda
-MENU.Tutorial and First Room.295,,Right,Derecha
 SAY.Tutorial and First Room.298.,,"You run from the dead, but the beast is behind you.","Tu corres  por tu vida, pero el minotauro está detrás de ti. "
 SAY.Tutorial and First Room.299.,,,
 Forward on the road a separation is coming.,,,
@@ -170,8 +168,6 @@ SAY.Tutorial and First Room.342.,,"The minotaur pounces on you with fury, you wa
 SAY.Tutorial and First Room.343.,,"The minotaur continues his march against you, in that moment you make a gesture with your hand raising the index upwards. Then the water that remains in the ground emerges as a torrent of ice that perforates the minotaur leaving it inert on you.","El minotauro continúa su marcha contra ti, en ese momento haces un gesto con la mano elevando el índice hacia arriba. Luego, el agua que permanece en el suelo emerge como un torrente de hielo que perfora el corazón del minotauro dejando su cadáver inerte ante ti. "
 SAY.Tutorial and First Room.345.,,"Now that you have finished with the minotaur, you can continue advancing, after a few minutes of walking, an incriminated one appears before you, choose:","Ahora que has terminado con el minotauro, puedes continuar avanzando, después de unos minutos de caminata, aparece una separación del camino delante de ti, elige: "
 SAY.Tutorial and First Room.348.,,"You cast your spells but your magic power is not enough to harm the beast, so without flinching it attacks you, ending your life.","Lanzas tus hechizos pero tu poder mágico no es suficiente para dañar a la bestia, así que sin inmutarte, te ataca y termina con tu vida. "
-MENU.Tutorial and First Room.351,,Left,Derecha
-MENU.Tutorial and First Room.352,,Right,Izquierda
 SAY.Tutorial and First Room.354.,,"You try to scape from the beast, but the beast is so fast.",Tratas de escapar de la bestia pero es muy rápida. 
 SAY.Tutorial and First Room.356.,,"The beast rushes to reach you, but with a series of skilled movements you manage to elude it.",El minotauro acelera su marcha para alcanzarte pero con una serie de hábiles movimientos logras evadirlo. 
 SAY.Tutorial and First Room.357.,,"You run quickly to escape the beast, but you find a separation that leads to two paths.","Corres con rapidez para escapar de la bestia, pero encuentras una separación más adelante en el camino. "
@@ -215,7 +211,61 @@ SAY.Tutorial and First Room.491.,,"
 The minotaur turns to see the other sword fall, take advantage of the distraction to nail your other sword in his throat, the beast rises after receiving the attack.","El minotauro gira al ver la otra espada caer, aprovechas la distraccion para clavar tu otra espada  en su garganta, la bestia se levanta tras recibir el ataque."
 SAY.Tutorial and First Room.492.,,"
 Take your hands to the neck trying to cover the wound while your other sword falls, you take it in the air and with it you give the last blow to the minotaur's forehead.","Lleva sus manos al cuello intentando tapar la herida mientras tu otra espada cae, la tomas en el aire y con ella das el ultimo golpe en la frente del minotauro."
-SAY.Tutorial and First Room.494.,,,
+SAY.Tutorial and First Room.494.,,"
+You take your hammer to attack the minotaur, start spinning it in a dizzy way, the minotaur does not intimidate and tries to attack you.","Tomas tu martillo para atacar al minotauro, comienzas a girarlo de manera vertiginosa, el minotauro no se intimida e intenta atacarte."
+SAY.Tutorial and First Room.495.,,,
+At the last moment you change the trajectory of the turn and you are looking to connect the minotaur with a vertical turn.,,,En el último momento cambias la trayectoria del giro y buscas conectar al minotauro con un giro vertical.
+SAY.Tutorial and First Room.496.,,"
+You connect the beast with your blow, tearing off its jaw and leaving its inert body suspended in the air for a moment before falling.","Conectas a la bestia con tu golpe, arrancandole la mandibula y dejando su cuerpo inerte suspendido en el aire durante unos instantes antes de caer."
+SAY.Tutorial and First Room.498.,,"
+You turn quickly and manage to shoot several arrows straight at the thick skin of the beast, but you can not hurt it enough.","Giras rápidamente y logras lanzar varias flechas directo a la gruesa piel de la bestia, pero no logras lastimarlo lo suficiente."
+SAY.Tutorial and First Room.499.,,"
+The minotaur does not flinch, now runs to hit you, you manage to evade the first attacks but you start to run out of space.","El minotauro ni se inmuta, ahora corre a golpearte, logras evadir los primeros ataques pero empiezas a quedarte sin espacio."
+SAY.Tutorial and First Room.500.,,,
+Finally this catches you in his arms and begins to squeeze you with strength.,,,Finalmente este te atrapa entre sus brazos y comienza a apretarte con fuerzas.
+SAY.Tutorial and First Room.501.,,"
+You feel your bones creak as if you were about to break, desperate you take an arrow and nail it in the eyes of the beast.","Sientes como tus huesos crujen como si estuviera a punto de quebrarse, desesperado tomas  una flecha y la clavas en los ojos de la bestia."
+SAY.Tutorial and First Room.502.,,"
+The beast roars with pain and lets go, now take the opportunity to take distance, while the minotaur rejoins, panting heavily.","La bestia ruge de dolor y te suelta, ahora aprovechas para tomar distancia, mientras el minotauro se reincorpora, jadea fuertemente."
+SAY.Tutorial and First Room.503.,,"
+Tie a rope to a special arrow, the material that is made is much more resistant, you are ready to attack the minotaur.","Atas una cuerda a una flecha especial,el material con el que esta hecha es mucho mas resistente, te dispones a atacar al minotauro."
+SAY.Tutorial and First Room.504.,,"
+Now you move to the blind side of the minotaur, the spear blow to the air which you evade, but take advantage to catch the hand in the rope, when you fall you shoot the arrow to the roof of the dungeon.","Ahora te mueves hacia el lado ciego del minotauro, el lanza golpe al aire el cual evades, pero aprovechas para atrapar la mano en la soga, al caer disparas la flecha al techo del calabozo."
+SAY.Tutorial and First Room.505.,,"
+The minotaur tries to go after you, but is stopped by a pull by the rope, to realize that is neglected, take the time to tie another rope and throw it.","El minotauro trata de ir tras de ti, pero es detenido de un tiron por la soga, al percatarse de eso se descuida, aprovechas el momento para atar otra soga y lanzarsela."
+SAY.Tutorial and First Room.506.,,"
+Your arrow goes straight to your head, however it realizes and manages to block it with your free arm, now you use the free end of the rope to tie another rope that you shoot to the ceiling.","Tu flecha va directo a su cabeza, sin embargo este se da cuenta y logra bloquearla con su brazo libre, ahora usas el extremo libre de la cuerda para atar otra soga que disparas al techo."
+SAY.Tutorial and First Room.507.,,"
+The arrow hits the target, now the minotaur can not use his arms, you start running around him while he tries desperately to reach you, ending up rolled and exposed.","La flecha da en el blanco, ahora el minotauro no puede usar sus brazos, comienzas a correr alrededor de el mientras este intenta desesperadamente alcanzarte, terminando enrollado y expuesto."
+SAY.Tutorial and First Room.508.,,"
+The minotaur is exposed, take the last arrow you have left, aim and shoot directly in the minotaur's forehead, ending his life.","El minotauro queda expuesto, sacas la ultima flecha que te queda, apuntas y disparas directo en la frente del minotauro, dando fin a su vida."
+SAY.Tutorial and First Room.510.,,"
+You take your shield and ax to throw everything against the minotaur, the minotaur uses his powerful antlers to stop you.","Tomas tu escudo y hacha para lanzarte con todo contra el minotauro, el minotauro usa su poderosa cornamenta para detenerte."
+SAY.Tutorial and First Room.511.,,"
+The minotaur puts his horns in front and manages to penetrate your shield with this, but his horns are stuck in the shield.","El minotauro pone su cornamente de frente y logra penetrar tu escudo con esta, pero sus cuernos quedan atorados en el escudo."
+SAY.Tutorial and First Room.512.,,"
+Quickly you use your ax to cut one of the minotaur's horns, each blow annoys the beast that moves wildly to escape.","Rapidamente usas tu hacha para cortar uno de los cuernos del minotauro, cada golpe hace enojar a la bestia que se mueve salvajemente para escapar."
+SAY.Tutorial and First Room.513.,,"
+Until the horn is broken, then the minotaur roars heartbreaking, furious begins to raise his head while shaking it vertiginously.","Hasta que el cuerno se rompe, entonces el minotauro lanza un rugido desgarrador, furioso comienza a elevear su cabeza mientras la sacude vertiginosamente."
+SAY.Tutorial and First Room.514.,,"
+It shakes you so hard that you let go of the shield and fall flat on the ground, dropping your ax in the process.","Te sacude con tanta fuerza que sueltas el escudo y caes aparatosamente contra el suelo, soltando tu hacha en el proceso."
+SAY.Tutorial and First Room.515.,,"
+The minotaur finally manages to get rid of the shield of the antlers, full of rage attacks against you, without wasting time you look around and once the horn of the beast on the ground, you take it and just when the minotaur hits.....","El minotauro finalmente logra zafarse el escudo de la cornamenta, lleno de rabia arremete contra ti, sin perder tiempo miras a tu alrededor y vez el cuerno de la bestia en el suelo, lo tomas y justo cuando el minotauro de embiste......"
+SAY.Tutorial and First Room.516.,,"
+You manage to evade the death blow of the horn, although you are not unharmed, you manage to get out alive, unlike the minotaur who lies with his own horn piercing his heart.","Logras evadir el golpe mortal del cuerno, aunque no sales ileso, logras salir con vida a diferencia del minotauro que yace con su propio cuerno atravesando su corazon."
+WRITE.Tutorial and First Room.518,,{$life},{$life}
+SAY.Tutorial and First Room.520.,,"
+Look at the minotaur, the eyes of the eyes of fury and rage, the monster of the hand and the blow with the right arm which you avoid 
+\ncrouching you.","Mirar al minotauro, los ojos de los ojos de la furia y la rabia, el monstruo de la mano y el golpe con el brazo derecho el cual esquivas agachandote."
+SAY.Tutorial and First Room.521.,,"
+The monster turns and with its left elbow a strong blow connects you, which throws you strongly with the ground.","El monstruo gira y con su codo izquierdo te conecta un fuerte golpe, el cual te arroja fuertemente con el suelo."
+WRITE.Tutorial and First Room.523,,{$life},{$life}
+SAY.Tutorial and First Room.524.,,"
+The minotaur is thrown at you, so you release the power of your magical vaculo and with the minotaur enclosures in a triangular crystal.","El minotauro se lanza sobre ti, asi que liberas el poder de tu vaculo magico y con el encierras al minotauro en un cristal con forma triangular."
+SAY.Tutorial and First Room.527.,,"
+The minotaur gets up and prepares to finish you, you try to use your weapons to stop him but the beast is too strong for him to be stopped.","El minotauro se incorpora y se dispone a acabarte, tratas de usar tus armas para detenerlo pero la bestia es muy fuerte para que la ser detenida."
+SAY.Tutorial and First Room.528.,,"
+Quickly the minotaur pierces your chest with its horns, the dungeon claims another life.","Velozmente el minotauro atraviesa tu pecho con sus cuernos, el calabozo clama otra vida."
 SAY.Tutorial and First Room.402.,,"You invoke the power of thunder, your eyes shine as they emerge from these energy trails.","invocas al poder del trueno, tus ojos brillan mientras emergen de estos unas estelas de energia."
 SAY.Tutorial and First Room.403.,,"While your weapon is bathed with this energy loads against the beast, while advancing each step increases your strength and determination.","Mientras tu arma se baña con esta energia cargas contra la bestia, mientras avanzas cada paso aumenta tu fuerza y determinacion. "
 SAY.Tutorial and First Room.404.,,"
@@ -278,7 +328,7 @@ The minotaur prepares a powerful onslaught, while approaching furtively you invo
 SAY.Tutorial and First Room.451.,,"
 You use the power of the wind to dive into the minotaur, while falling you generate an immense wind wave which you concentrate like a sword to cut the beast.","Usas el poder del viento para lanzarte en picada contra el minotauro, mientras caes generas una inmensa onda viento la cual concentras como una espada para cortar a la bestia."
 SAY.Tutorial and First Room.452.,,,
-When falling strongly impact with your wave of wind to the arm of the minotaur which is cut in two by the blow.,,,Al caer impactas fuertemente con tu onda de viento al brazo del minotauro el cual es cortado en dos por el golpe.
+When falling strongly impact with your wave of wind to the arm of the minotaur which is cut in two by the blow.,,,
 SAY.Tutorial and First Room.453.,,"
 The minotaur brings his other hand to the affected area, after a few moments he tries to put his claws on you.","El minotauro lleva su otra mano a la zona afecta, luego de unos instantes trata ponerte las garras encima."
 SAY.Tutorial and First Room.454.,,"
@@ -300,7 +350,7 @@ SAY.Tutorial and First Room.464.,,"
 The minotaur seeks to attack you, launches for you in a furious and fierce way, you remain paralyzed while the minotaur approaches quickly.
 ","El minotauro busca atacarte, se lanza a por ti de manera furiosa y feroz, te quedas paralizado mientras el minotauro se acerca rapidamente."
 SAY.Tutorial and First Room.465.,,,
-The minotaur connects with your body and crosses it from side to side with its horns.,,,El minotauro conecta con tu cuerpo y lo atraviesa de lado a lado con sus cuernos.
+The minotaur connects with your body and crosses it from side to side with its horns.,,,
 SAY.Tutorial and First Room.466.,,"
 It seems that the end is approaching, the minotaur lifts your body and roars in victory.","Pero en el fondo de tu ser se esconde un pequeña mueca, casi una sonrisa. ""Bestia estupida"", sale de tus labios mientras tu cuerpo comenzaba a derretirse."
 SAY.Tutorial and First Room.467.,,"
@@ -321,13 +371,27 @@ SAY.Tutorial and First Room.487.,,"
 This manages to connect the beast, but unfortunately the desired effect is not achieved, the minotaur barely flinches at your attack.","Este logra conectar a la bestia, pero lamentablemente no lo logra el efecto deseado, el minotauro apenas se inmuta ante tu ataque."
 SAY.Tutorial and First Room.488.,,"
 Now it's the minotaur's turn, he roars and launches for you, he hits a powerful blow with his claw crossing your body and ending your trip in the dungeon.","Ahora es turno del minotauro, este ruge y se lanza por ti, asesta un poderoso golpe con su garra atravesando  tu cuerpo y poniendo fin a tu viaje en el calabozo."
-MENU.Tutorial and First Room.474,,Right,
-MENU.Tutorial and First Room.475,,Left,
+SAY.Tutorial and First Room.535.,,,
+You have managed to overcome the adversities and once a path in front of you that is divided in two:,,,Haz logrado superar las adversidades y vez un camino frente a ti que se divide en dos:
+MENU.Tutorial and First Room.536,,Right,Derecha
+MENU.Tutorial and First Room.537,,Left,Izquierda
+SAY.Tutorial and First Room.539.,,"
+You have chosen to go to the right, you advance in the darkness looking for an exit, when suddenly you come across ...","Haz elegido ir por la derecha, avanzas en la oscuridad buscando una salida, cuando de repente te encuentras con...."
+SAY.Tutorial and First Room.543.,,,
+Thanks for playing this demo/Gracias por jugar este demo.,,,
+SAY.Tutorial and First Room.541.,,"
+You have chosen to go to the left, you advance in the darkness looking for an exit, when suddenly you find yourself with ....","Haz elegido ir por la izquierda, avanzas en la oscuridad buscando una salida, cuando de repente te encuentras con...."
+SAY.Tutorial and First Room.542.,,,
+Thanks for playing this demo/Gracias por jugar este demo.,,,
+SAY._CommandCopyBuffer.542.,,,
+Thanks for playing this demo/Gracias por jugar este demo.,,,
 You try to flee taking advantage of the hard blow you hit the minotaur.,,,
 You summon a powerful thunder that rushes against the minotaur like a spear piercing its flesh and leaving it dead at your feet.,,,
 Forward on the road a separation is coming.,,,"Frente al camino, aparece una separación "
 \nChoose:,,,Elige: 
 You draw your swords and you throw yourself against the beast.,,,Desenvainas tus espadas y te lanzas contra la bestia. 
 After stopping your attack the minotaur takes impulse and throws you fiercely against the wall of the dungeon.,,,Después de detener tu ataque el minotauro toma impulso y te arroja ferozmente contra el muro del calabozo.
+When falling strongly impact with your wave of wind to the arm of the minotaur which is cut in two by the blow.,,,Al caer impactas fuertemente con tu onda de viento al brazo del minotauro el cual es cortado en dos por el golpe.
+The minotaur connects with your body and crosses it from side to side with its horns.,,,El minotauro conecta con tu cuerpo y lo atraviesa de lado a lado con sus cuernos.
 The beast is fast but due to the blow and your great agility you manage to escape from the minotaur.,,,
 Preparing to launch you into the crater you just created with your spell.,,,
