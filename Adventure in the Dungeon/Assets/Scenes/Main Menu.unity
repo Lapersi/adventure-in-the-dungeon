@@ -560,7 +560,7 @@ Prefab:
     - target: {fileID: 114524956118308092, guid: c286a57478242a943946872f0a9edb80,
         type: 2}
       propertyPath: m_havePropertiesChanged
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114524956118308092, guid: c286a57478242a943946872f0a9edb80,
         type: 2}
@@ -607,6 +607,30 @@ Prefab:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: Dungeon
       objectReference: {fileID: 0}
+    - target: {fileID: 114524956118308092, guid: c286a57478242a943946872f0a9edb80,
+        type: 2}
+      propertyPath: m_fontColorGradientPreset
+      value: 
+      objectReference: {fileID: 11400000, guid: d262c1966a61f3d41957fee54b4e1237,
+        type: 2}
+    - target: {fileID: 114429399191770906, guid: c286a57478242a943946872f0a9edb80,
+        type: 2}
+      propertyPath: m_fontColorGradientPreset
+      value: 
+      objectReference: {fileID: 11400000, guid: d262c1966a61f3d41957fee54b4e1237,
+        type: 2}
+    - target: {fileID: 114548936853725000, guid: c286a57478242a943946872f0a9edb80,
+        type: 2}
+      propertyPath: m_fontColorGradientPreset
+      value: 
+      objectReference: {fileID: 11400000, guid: d262c1966a61f3d41957fee54b4e1237,
+        type: 2}
+    - target: {fileID: 114934525002430878, guid: c286a57478242a943946872f0a9edb80,
+        type: 2}
+      propertyPath: m_fontColorGradientPreset
+      value: 
+      objectReference: {fileID: 11400000, guid: d262c1966a61f3d41957fee54b4e1237,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c286a57478242a943946872f0a9edb80, type: 2}
   m_IsPrefabParent: 0
