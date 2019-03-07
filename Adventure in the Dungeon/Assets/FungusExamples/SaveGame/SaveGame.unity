@@ -42,7 +42,7 @@ RenderSettings:
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 9
+  serializedVersion: 11
   m_GIWorkflowMode: 1
   m_GISettings:
     serializedVersion: 2
@@ -54,7 +54,7 @@ LightmapSettings:
     m_EnableBakedLightmaps: 0
     m_EnableRealtimeLightmaps: 0
   m_LightmapEditorSettings:
-    serializedVersion: 8
+    serializedVersion: 9
     m_Resolution: 2
     m_BakeResolution: 40
     m_TextureWidth: 1024
@@ -77,17 +77,19 @@ LightmapSettings:
     m_PVRDirectSampleCount: 32
     m_PVRSampleCount: 500
     m_PVRBounces: 2
-    m_PVRFiltering: 0
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
     m_PVRFilteringMode: 1
     m_PVRCulling: 1
     m_PVRFilteringGaussRadiusDirect: 1
     m_PVRFilteringGaussRadiusIndirect: 5
     m_PVRFilteringGaussRadiusAO: 2
-    m_PVRFilteringAtrousColorSigma: 1
-    m_PVRFilteringAtrousNormalSigma: 1
-    m_PVRFilteringAtrousPositionSigma: 1
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
   m_LightingDataAsset: {fileID: 0}
-  m_ShadowMaskMode: 2
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -107,6 +109,8 @@ NavMeshSettings:
     manualTileSize: 0
     tileSize: 256
     accuratePlacement: 0
+    debug:
+      m_Flags: 0
   m_NavMeshData: {fileID: 0}
 --- !u!1 &24276234
 GameObject:
@@ -133,7 +137,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 24276234}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 586.5, y: 296.63, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2135898993}
@@ -211,7 +215,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 132162241}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 1321.5, y: 263.13, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2135898993}
@@ -241,6 +245,7 @@ MonoBehaviour:
   m_PreferredHeight: 350
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &132162244
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -302,7 +307,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 162867990}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 680.6, y: -62.247513, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2029004623}
@@ -815,8 +820,8 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1011241890}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 268.5, y: 151, z: 0}
+  m_LocalScale: {x: 0.25166667, y: 0.25166667, z: 0.25166667}
   m_Children:
   - {fileID: 2135898993}
   m_Father: {fileID: 0}
@@ -902,7 +907,6 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
-  m_StereoMirrorMode: 0
 --- !u!4 &1288505578
 Transform:
   m_ObjectHideFlags: 0
@@ -926,12 +930,12 @@ Prefab:
     - target: {fileID: 224000011191842766, guid: bd2b99773f3e0489aae9f9b5053ad360,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 268.5
       objectReference: {fileID: 0}
     - target: {fileID: 224000011191842766, guid: bd2b99773f3e0489aae9f9b5053ad360,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 151
       objectReference: {fileID: 0}
     - target: {fileID: 224000011191842766, guid: bd2b99773f3e0489aae9f9b5053ad360,
         type: 2}
@@ -1197,6 +1201,56 @@ Prefab:
       propertyPath: m_AdditionalShaderChannelsFlag
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 224000012150207008, guid: bd2b99773f3e0489aae9f9b5053ad360,
+        type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -239.65999
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000012150207008, guid: bd2b99773f3e0489aae9f9b5053ad360,
+        type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -14.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000013898185038, guid: bd2b99773f3e0489aae9f9b5053ad360,
+        type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -186.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000013898185038, guid: bd2b99773f3e0489aae9f9b5053ad360,
+        type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -14.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000012687811630, guid: bd2b99773f3e0489aae9f9b5053ad360,
+        type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -132.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000012687811630, guid: bd2b99773f3e0489aae9f9b5053ad360,
+        type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -14.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000012590701094, guid: bd2b99773f3e0489aae9f9b5053ad360,
+        type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -79.219986
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000012590701094, guid: bd2b99773f3e0489aae9f9b5053ad360,
+        type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -14.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000013149320576, guid: bd2b99773f3e0489aae9f9b5053ad360,
+        type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -25.739988
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000013149320576, guid: bd2b99773f3e0489aae9f9b5053ad360,
+        type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -14.96
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bd2b99773f3e0489aae9f9b5053ad360, type: 2}
   m_IsPrefabParent: 0
@@ -1367,7 +1421,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 76.99671
     y: 228.11209
-    width: 120
+    width: 121.50702
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1379,7 +1433,7 @@ MonoBehaviour:
   - {fileID: 1889213473}
 --- !u!114 &1889213471
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1889213469}
@@ -1435,10 +1489,11 @@ MonoBehaviour:
   fadeWhenDone: 1
   waitForClick: 1
   stopVoiceover: 1
+  waitForVO: 0
   setSayDialog: {fileID: 0}
 --- !u!114 &1889213475
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1889213469}
@@ -1464,7 +1519,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -92.87758, y: -50.260628}
+  scrollPos: {x: 169.65541, y: -69.66969}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -1557,7 +1612,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 78.28943
     y: 294.5421
-    width: 120
+    width: 121.50702
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1626,6 +1681,7 @@ MonoBehaviour:
   fadeWhenDone: 1
   waitForClick: 1
   stopVoiceover: 1
+  waitForVO: 0
   setSayDialog: {fileID: 0}
 --- !u!114 &1889213485
 MonoBehaviour:
@@ -1662,7 +1718,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 233.40749
     y: 144.44666
-    width: 143
+    width: 152.1529
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1774,6 +1830,9 @@ MonoBehaviour:
     booleanRef: {fileID: 0}
     booleanVal: 1
   setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!114 &1889213492
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1829,6 +1888,7 @@ MonoBehaviour:
   fadeWhenDone: 1
   waitForClick: 1
   stopVoiceover: 1
+  waitForVO: 0
   setSayDialog: {fileID: 0}
 --- !u!114 &1889213494
 MonoBehaviour:
@@ -1864,6 +1924,9 @@ MonoBehaviour:
     booleanRef: {fileID: 0}
     booleanVal: 1
   setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!114 &1889213496
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1879,7 +1942,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 392.23532
     y: 97.65081
-    width: 121
+    width: 127.63619
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1970,6 +2033,7 @@ MonoBehaviour:
   fadeWhenDone: 1
   waitForClick: 1
   stopVoiceover: 1
+  waitForVO: 0
   setSayDialog: {fileID: 0}
 --- !u!114 &1889213500
 MonoBehaviour:
@@ -2095,6 +2159,7 @@ MonoBehaviour:
   fadeWhenDone: 1
   waitForClick: 1
   stopVoiceover: 1
+  waitForVO: 0
   setSayDialog: {fileID: 0}
 --- !u!114 &1889213505
 MonoBehaviour:
@@ -2120,6 +2185,7 @@ MonoBehaviour:
   fadeWhenDone: 1
   waitForClick: 1
   stopVoiceover: 1
+  waitForVO: 0
   setSayDialog: {fileID: 0}
 --- !u!114 &1889213506
 MonoBehaviour:
@@ -2209,6 +2275,7 @@ MonoBehaviour:
   fadeWhenDone: 1
   waitForClick: 1
   stopVoiceover: 1
+  waitForVO: 0
   setSayDialog: {fileID: 0}
 --- !u!114 &1889213510
 MonoBehaviour:
@@ -2263,6 +2330,7 @@ MonoBehaviour:
   fadeWhenDone: 1
   waitForClick: 1
   stopVoiceover: 1
+  waitForVO: 0
   setSayDialog: {fileID: 0}
 --- !u!114 &1889213513
 MonoBehaviour:
@@ -2338,7 +2406,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2025975869}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 753, y: 145.95251, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 162867991}
@@ -2369,6 +2437,7 @@ MonoBehaviour:
   m_PreferredHeight: 200
   m_FlexibleWidth: 1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &2025975872
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2592,7 +2661,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2135898988}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -750.0001, y: -600, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 24276235}
